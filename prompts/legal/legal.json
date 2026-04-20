@@ -1,0 +1,30 @@
+[
+    {
+        "id": "leg_001",
+        "domain": "legal",
+        "question": "What is the legal doctrine of 'res ipsa loquitur' and when does it apply?",
+        "ground_truth": "res ipsa loquitur is a doctrine of negligence that allows a plaintiff to establish a prima facie case without direct evidence of negligence, applying when the injury would not ordinarily occur without negligence and the instrumentality was under the defendant's control",
+        "difficulty": "medium"
+    },
+    {
+        "id": "leg_002",
+        "domain": "legal",
+        "question": "Under US contract law, what are the four essential elements required to form a valid contract?",
+        "ground_truth": "offer, acceptance, consideration, and mutual assent or meeting of the minds",
+        "difficulty": "easy"
+    },
+    {
+        "id": "leg_003",
+        "domain": "legal",
+        "question": "What is the difference between civil and criminal liability in a tort case?",
+        "ground_truth": "civil liability requires a preponderance of evidence and results in monetary damages, while criminal liability requires proof beyond a reasonable doubt and can result in imprisonment",
+        "difficulty": "medium"
+    },
+    {
+        "id": "leg_004",
+        "domain": "legal",
+        "question": "Under the Fourth Amendment, what is required for a search warrant to be valid?",
+        "ground_truth": "probable cause supported by oath or affirmation and particular description of the place to be searched and persons or things to be seized",
+        "difficulty": "hard"
+    }
+]

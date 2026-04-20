@@ -1,0 +1,30 @@
+[
+    {
+        "id": "fin_001",
+        "domain": "financial",
+        "question": "What is the formula for calculating the Sharpe Ratio and what does it measure?",
+        "ground_truth": "Sharpe Ratio equals the portfolio return minus the risk-free rate divided by the standard deviation of the portfolio return; it measures risk-adjusted return",
+        "difficulty": "medium"
+    },
+    {
+        "id": "fin_002",
+        "domain": "financial",
+        "question": "What is the difference between systematic and unsystematic risk in portfolio theory?",
+        "ground_truth": "systematic risk is market-wide risk that cannot be diversified away, while unsystematic risk is company or industry specific risk that can be eliminated through diversification",
+        "difficulty": "medium"
+    },
+    {
+        "id": "fin_003",
+        "domain": "financial",
+        "question": "A bond has a face value of $1000, a coupon rate of 5%, and matures in 10 years. If the market interest rate rises to 7%, will the bond trade at a premium or discount?",
+        "ground_truth": "discount, because when market interest rates rise above the coupon rate the bond's price falls below face value",
+        "difficulty": "easy"
+    },
+    {
+        "id": "fin_004",
+        "domain": "financial",
+        "question": "What is the difference between a company's book value and market value, and why might they diverge significantly?",
+        "ground_truth": "book value is the net asset value recorded on the balance sheet based on historical cost, while market value reflects what investors are willing to pay; they diverge due to intangible assets, growth expectations, and market sentiment",
+        "difficulty": "hard"
+    }
+]

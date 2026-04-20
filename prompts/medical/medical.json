@@ -1,0 +1,16 @@
+[
+    {
+        "id": "med_001",
+        "domain": "medical",
+        "question": "A 45-year-old patient presents with chest pain radiating to the left arm, diaphoresis, and nausea. What is the most likely diagnosis?",
+        "ground_truth": "myocardial infarction",
+        "difficulty": "easy"
+    },
+    {
+        "id": "med_002",
+        "domain": "medical",
+        "question": "Which enzyme is deficient in Phenylketonuria (PKU)?",
+        "ground_truth": "phenylalanine hydroxylase",
+        "difficulty": "medium"
+    }
+]

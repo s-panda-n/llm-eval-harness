@@ -1,0 +1,16 @@
+[
+    {
+        "id": "gen_001",
+        "domain": "general",
+        "question": "If all bloops are razzles and all razzles are lazzles, are all bloops lazzles?",
+        "ground_truth": "yes",
+        "difficulty": "easy"
+    },
+    {
+        "id": "gen_002",
+        "domain": "general",
+        "question": "A bat and a ball cost $1.10 in total. The bat costs $1 more than the ball. How much does the ball cost?",
+        "ground_truth": "5 cents",
+        "difficulty": "medium"
+    }
+]
