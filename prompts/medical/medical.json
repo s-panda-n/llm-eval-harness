@@ -1,16 +1,352 @@
 [
-    {
-        "id": "med_001",
-        "domain": "medical",
-        "question": "A 45-year-old patient presents with chest pain radiating to the left arm, diaphoresis, and nausea. What is the most likely diagnosis?",
-        "ground_truth": "myocardial infarction",
-        "difficulty": "easy"
-    },
-    {
-        "id": "med_002",
-        "domain": "medical",
-        "question": "Which enzyme is deficient in Phenylketonuria (PKU)?",
-        "ground_truth": "phenylalanine hydroxylase",
-        "difficulty": "medium"
-    }
+  {
+    "id": "med_001",
+    "domain": "medical",
+    "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_002",
+    "domain": "medical",
+    "question": "Landolt C and snellen e acuity: differences in strabismus amblyopia?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_003",
+    "domain": "medical",
+    "question": "Syncope during bathing in infants, a pediatric form of water-induced urticaria?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_004",
+    "domain": "medical",
+    "question": "Are the long-term results of the transanal pull-through equal to those of the transabdominal pull-through?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_005",
+    "domain": "medical",
+    "question": "Can tailored interventions increase mammography use among HMO women?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_006",
+    "domain": "medical",
+    "question": "Double balloon enteroscopy: is it efficacious and safe in a community setting?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_007",
+    "domain": "medical",
+    "question": "30-Day and 1-year mortality in emergency general surgery laparotomies: an area of concern and need for improvement?",
+    "ground_truth": "maybe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_008",
+    "domain": "medical",
+    "question": "Is adjustment for reporting heterogeneity necessary in sleep disorders?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_009",
+    "domain": "medical",
+    "question": "Do mutations causing low HDL-C promote increased carotid intima-media thickness?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_010",
+    "domain": "medical",
+    "question": "A short stay or 23-hour ward in a general and academic children's hospital: are they effective?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_011",
+    "domain": "medical",
+    "question": "Did Chile's traffic law reform push police enforcement?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_012",
+    "domain": "medical",
+    "question": "Therapeutic anticoagulation in the trauma patient: is it safe?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_013",
+    "domain": "medical",
+    "question": "Differentiation of nonalcoholic from alcoholic steatohepatitis: are routine laboratory markers useful?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_014",
+    "domain": "medical",
+    "question": "Prompting Primary Care Providers about Increased Patient Risk As a Result of Family History: Does It Work?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_015",
+    "domain": "medical",
+    "question": "Do emergency ultrasound fellowship programs impact emergency medicine residents' ultrasound education?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_016",
+    "domain": "medical",
+    "question": "Patient-Controlled Therapy of Breathlessness in Palliative Care: A New Therapeutic Concept for Opioid Administration?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_017",
+    "domain": "medical",
+    "question": "Is there still a need for living-related liver transplantation in children?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_018",
+    "domain": "medical",
+    "question": "Do patterns of knowledge and attitudes exist among unvaccinated seniors?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_019",
+    "domain": "medical",
+    "question": "Is there a model to teach and practice retroperitoneoscopic nephrectomy?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_020",
+    "domain": "medical",
+    "question": "Cardiovascular risk in a rural adult West African population: is resting heart rate also relevant?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_021",
+    "domain": "medical",
+    "question": "Israeli hospital preparedness for terrorism-related multiple casualty incidents: can the surge capacity and injury severity distribution be better predicted?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_022",
+    "domain": "medical",
+    "question": "Acute respiratory distress syndrome in children with malignancy--can we predict outcome?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_023",
+    "domain": "medical",
+    "question": "Secondhand smoke risk in infants discharged from an NICU: potential for significant health disparities?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_024",
+    "domain": "medical",
+    "question": "Do nomograms designed to predict biochemical recurrence (BCR) do a better job of predicting more clinically relevant prostate cancer outcomes than BCR?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_025",
+    "domain": "medical",
+    "question": "Are reports of mechanical dysfunction in chronic oro-facial pain related to somatisation?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_026",
+    "domain": "medical",
+    "question": "Amblyopia: is visual loss permanent?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_027",
+    "domain": "medical",
+    "question": "Implementation of epidural analgesia for labor: is the standard of effective analgesia reachable in all women?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_028",
+    "domain": "medical",
+    "question": "Does HER2 immunoreactivity provide prognostic information in locally advanced urothelial carcinoma patients receiving adjuvant M-VEC chemotherapy?",
+    "ground_truth": "maybe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_029",
+    "domain": "medical",
+    "question": "Is halofantrine ototoxic?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_030",
+    "domain": "medical",
+    "question": "Visceral adipose tissue area measurement at a single level: can it represent visceral adipose tissue volume?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_031",
+    "domain": "medical",
+    "question": "Necrotizing fasciitis: an indication for hyperbaric oxygenation therapy?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_032",
+    "domain": "medical",
+    "question": "Is the Hawkins sign able to predict necrosis in fractures of the neck of the astragalus?",
+    "ground_truth": "maybe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_033",
+    "domain": "medical",
+    "question": "Is a mandatory general surgery rotation necessary in the surgical clerkship?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_034",
+    "domain": "medical",
+    "question": "Is Acupuncture Efficacious for Treating Phonotraumatic Vocal Pathologies?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_035",
+    "domain": "medical",
+    "question": "Is aneurysm repair justified for the patients aged 80 or older after aneurysmal subarachnoid hemorrhage?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_036",
+    "domain": "medical",
+    "question": "Do general practice characteristics influence uptake of an information technology (IT) innovation in primary care?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_037",
+    "domain": "medical",
+    "question": "Prognosis of well differentiated small hepatocellular carcinoma--is well differentiated hepatocellular carcinoma clinically early cancer?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_038",
+    "domain": "medical",
+    "question": "Do follow-up recommendations for abnormal Papanicolaou smears influence patient adherence?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_039",
+    "domain": "medical",
+    "question": "Biomolecular identification of allergenic pollen: a new perspective for aerobiological monitoring?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_040",
+    "domain": "medical",
+    "question": "Does diabetes mellitus influence the efficacy of FDG-PET in the diagnosis of cervical cancer?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_041",
+    "domain": "medical",
+    "question": "Biomechanical and wound healing characteristics of corneas after excimer laser keratorefractive surgery: is there a difference between advanced surface ablation and sub-Bowman's keratomileusis?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_042",
+    "domain": "medical",
+    "question": "Does radiotherapy of the primary rectal cancer affect prognosis after pelvic exenteration for recurrent rectal cancer?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_043",
+    "domain": "medical",
+    "question": "Can a practicing surgeon detect early lymphedema reliably?",
+    "ground_truth": "maybe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_044",
+    "domain": "medical",
+    "question": "Colorectal cancer with synchronous liver metastases: does global management at the same centre improve results?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_045",
+    "domain": "medical",
+    "question": "Is motion perception deficit in schizophrenia a consequence of eye-tracking abnormality?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_046",
+    "domain": "medical",
+    "question": "Transgastric endoscopic splenectomy: is it possible?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_047",
+    "domain": "medical",
+    "question": "It's Fournier's gangrene still dangerous?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_048",
+    "domain": "medical",
+    "question": "Is it appropriate to implant kidneys from elderly donors in young recipients?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_049",
+    "domain": "medical",
+    "question": "Do provider service networks result in lower expenditures compared with HMOs or primary care case management in Florida's Medicaid program?",
+    "ground_truth": "yes",
+    "difficulty": "medium"
+  },
+  {
+    "id": "med_050",
+    "domain": "medical",
+    "question": "Assessment of carotid artery stenosis before coronary artery bypass surgery. Is it always necessary?",
+    "ground_truth": "no",
+    "difficulty": "medium"
+  }
 ]

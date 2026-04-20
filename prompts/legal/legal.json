@@ -1,30 +1,352 @@
 [
-    {
-        "id": "leg_001",
-        "domain": "legal",
-        "question": "What is the legal doctrine of 'res ipsa loquitur' and when does it apply?",
-        "ground_truth": "res ipsa loquitur is a doctrine of negligence that allows a plaintiff to establish a prima facie case without direct evidence of negligence, applying when the injury would not ordinarily occur without negligence and the instrumentality was under the defendant's control",
-        "difficulty": "medium"
-    },
-    {
-        "id": "leg_002",
-        "domain": "legal",
-        "question": "Under US contract law, what are the four essential elements required to form a valid contract?",
-        "ground_truth": "offer, acceptance, consideration, and mutual assent or meeting of the minds",
-        "difficulty": "easy"
-    },
-    {
-        "id": "leg_003",
-        "domain": "legal",
-        "question": "What is the difference between civil and criminal liability in a tort case?",
-        "ground_truth": "civil liability requires a preponderance of evidence and results in monetary damages, while criminal liability requires proof beyond a reasonable doubt and can result in imprisonment",
-        "difficulty": "medium"
-    },
-    {
-        "id": "leg_004",
-        "domain": "legal",
-        "question": "Under the Fourth Amendment, what is required for a search warrant to be valid?",
-        "ground_truth": "probable cause supported by oath or affirmation and particular description of the place to be searched and persons or things to be seized",
-        "difficulty": "hard"
-    }
+  {
+    "id": "leg_001",
+    "domain": "legal",
+    "question": "Does the clause discuss PII data breaches?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_002",
+    "domain": "legal",
+    "question": "Does the clause discuss dispute resolution?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_003",
+    "domain": "legal",
+    "question": "Does the clause describe confidentiality requirements?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_004",
+    "domain": "legal",
+    "question": "Does the clause discuss choice of law governing the contract?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_005",
+    "domain": "legal",
+    "question": "Does the clause waive confidentiality?",
+    "ground_truth": "No",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_006",
+    "domain": "legal",
+    "question": "Does the clause discuss personal indemnification?",
+    "ground_truth": "No",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_007",
+    "domain": "legal",
+    "question": "Does the clause waive confidentiality?",
+    "ground_truth": "No",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_008",
+    "domain": "legal",
+    "question": "Does the clause describe confidentiality requirements?",
+    "ground_truth": "No",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_009",
+    "domain": "legal",
+    "question": "Does the clause discuss compromised user credentials?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_010",
+    "domain": "legal",
+    "question": "Does the clause discuss compliance with California consumer privacy law?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_011",
+    "domain": "legal",
+    "question": "Does the clause describe confidentiality requirements?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_012",
+    "domain": "legal",
+    "question": "Does the clause discuss CIPA policy?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_013",
+    "domain": "legal",
+    "question": "Does the clause discuss how disputes may be escalated?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_014",
+    "domain": "legal",
+    "question": "Does the clause discuss how disputes may be escalated?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_015",
+    "domain": "legal",
+    "question": "Does the clause discuss breach of contract?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_016",
+    "domain": "legal",
+    "question": "Is this a non-compete clause?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_017",
+    "domain": "legal",
+    "question": "Does the clause discuss the American with Disabilities Act (ADA) compliance?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_018",
+    "domain": "legal",
+    "question": "Does the clause discuss CIPA policy?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_019",
+    "domain": "legal",
+    "question": "Does the clause discuss BIPA consent?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_020",
+    "domain": "legal",
+    "question": "Does the clause discuss personal indemnification?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_021",
+    "domain": "legal",
+    "question": "Does the clause waive confidentiality?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_022",
+    "domain": "legal",
+    "question": "Does the clause discuss choice of law governing the contract?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_023",
+    "domain": "legal",
+    "question": "Does the clause discuss personal indemnification?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_024",
+    "domain": "legal",
+    "question": "Is this a termination clause?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_025",
+    "domain": "legal",
+    "question": "Does the clause discuss inadvertent disclosures of personal information?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_026",
+    "domain": "legal",
+    "question": "Does the clause discuss BIPA consent?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_027",
+    "domain": "legal",
+    "question": "Does the clause waive confidentiality?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_028",
+    "domain": "legal",
+    "question": "Is this a non-compete clause?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_029",
+    "domain": "legal",
+    "question": "Does the clause discuss compliance with California consumer privacy law?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_030",
+    "domain": "legal",
+    "question": "Does the clause waive damages?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_031",
+    "domain": "legal",
+    "question": "Does the clause discuss PII data breaches?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_032",
+    "domain": "legal",
+    "question": "Does the clause discuss breach of contract?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_033",
+    "domain": "legal",
+    "question": "Does the clause discuss the American with Disabilities Act (ADA) compliance?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_034",
+    "domain": "legal",
+    "question": "Does the clause discuss inadvertent disclosures of personal information?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_035",
+    "domain": "legal",
+    "question": "Is this a termination clause?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_036",
+    "domain": "legal",
+    "question": "Does the clause discuss arbitration?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_037",
+    "domain": "legal",
+    "question": "Does the clause waive damages?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_038",
+    "domain": "legal",
+    "question": "Is this a severability clause?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_039",
+    "domain": "legal",
+    "question": "Is this a Force Majeure clause?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_040",
+    "domain": "legal",
+    "question": "Does the clause discuss dispute resolution?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_041",
+    "domain": "legal",
+    "question": "Does the clause discuss breach of contract?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_042",
+    "domain": "legal",
+    "question": "Is this a Force Majeure clause?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_043",
+    "domain": "legal",
+    "question": "Does the clause discuss breach of contract?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_044",
+    "domain": "legal",
+    "question": "Does the clause discuss arbitration?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_045",
+    "domain": "legal",
+    "question": "Does the clause discuss compromised user credentials?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_046",
+    "domain": "legal",
+    "question": "Is this a severability clause?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_047",
+    "domain": "legal",
+    "question": "Does the clause discuss choice of law governing the contract?",
+    "ground_truth": "Yes",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_048",
+    "domain": "legal",
+    "question": "Does the clause discuss arbitration?",
+    "ground_truth": "No",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_049",
+    "domain": "legal",
+    "question": "Does the clause discuss CIPA policy?",
+    "ground_truth": "No",
+    "difficulty": "hard"
+  },
+  {
+    "id": "leg_050",
+    "domain": "legal",
+    "question": "Does the clause discuss arbitration?",
+    "ground_truth": "No",
+    "difficulty": "hard"
+  }
 ]

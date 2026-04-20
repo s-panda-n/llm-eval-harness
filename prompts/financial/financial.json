@@ -1,30 +1,352 @@
 [
-    {
-        "id": "fin_001",
-        "domain": "financial",
-        "question": "What is the formula for calculating the Sharpe Ratio and what does it measure?",
-        "ground_truth": "Sharpe Ratio equals the portfolio return minus the risk-free rate divided by the standard deviation of the portfolio return; it measures risk-adjusted return",
-        "difficulty": "medium"
-    },
-    {
-        "id": "fin_002",
-        "domain": "financial",
-        "question": "What is the difference between systematic and unsystematic risk in portfolio theory?",
-        "ground_truth": "systematic risk is market-wide risk that cannot be diversified away, while unsystematic risk is company or industry specific risk that can be eliminated through diversification",
-        "difficulty": "medium"
-    },
-    {
-        "id": "fin_003",
-        "domain": "financial",
-        "question": "A bond has a face value of $1000, a coupon rate of 5%, and matures in 10 years. If the market interest rate rises to 7%, will the bond trade at a premium or discount?",
-        "ground_truth": "discount, because when market interest rates rise above the coupon rate the bond's price falls below face value",
-        "difficulty": "easy"
-    },
-    {
-        "id": "fin_004",
-        "domain": "financial",
-        "question": "What is the difference between a company's book value and market value, and why might they diverge significantly?",
-        "ground_truth": "book value is the net asset value recorded on the balance sheet based on historical cost, while market value reflects what investors are willing to pay; they diverge due to intangible assets, growth expectations, and market sentiment",
-        "difficulty": "hard"
-    }
+  {
+    "id": "fin_001",
+    "domain": "financial",
+    "question": "Delta in CBOE Data & Access Solutions rev from 2021-23.",
+    "ground_truth": "The Data and Access Solutions revenue increased by $111.5 million from 2021 to 2023, calculated as 539.2 million minus 427.7 million.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_002",
+    "domain": "financial",
+    "question": "CBOE CBA expiring may impact union representation expenses.",
+    "ground_truth": "The three building engineers represent approximately 0.18% of the total workforce (calculated as 3 \u00f7 1,647 \u00d7 100 \u2248 0.18%). Although this is a very small portion of overall employees, the impending expiration of their collective bargaining agreement (set to expire on March 31, 2024) is noteworthy for",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_003",
+    "domain": "financial",
+    "question": "Cboe's earnings impact from market data vs reg fees analysis for ticker.",
+    "ground_truth": "The data provided shows that Cboe Global Markets earns revenue from both market data fees and regulatory fees, indicating a degree of revenue diversification. Specifically, market data fees total $293.7 million, while regulatory fees total $223.7 million. This suggests that while market data fees ar",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_004",
+    "domain": "financial",
+    "question": "Cboe\u2019s repurchase costs & the impact of its authorization on cap alloc.",
+    "ground_truth": "The available data on share repurchase activity allows us to assess its implications on capital allocation and overall financial health. First, the cost to repurchase shares\u2014in 2023, 661,721 shares were repurchased at an average cost of $126.80 per share for a total expenditure of $83.9 million, whi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_005",
+    "domain": "financial",
+    "question": "Cboe's operational stability, governance in cybersecurity, and financial health.",
+    "ground_truth": "Cboe Global Markets Inc.'s multi-layered cybersecurity governance framework plays a critical role in promoting operational stability, which in turn supports its overall financial health. The framework achieves this through several key mechanisms:\n\n1. Risk Mitigation: The implementation of comprehens",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_006",
+    "domain": "financial",
+    "question": "Fee model of Cboe incentivizes order flow liquidity for increased mkt share & profit, ticker.",
+    "ground_truth": "The provided text indicates that Cboe Global Markets uses its fee scheduling and pricing model as a strategic tool to attract order flow and provide incentives for liquidity providers. Specifically, by offering competitive fee structures, Cboe can lower transaction costs for liquidity providers whil",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_007",
+    "domain": "financial",
+    "question": "Cboe's legal proceedings and loss accrual criteria disclosures.",
+    "ground_truth": "Cboe Global Markets Inc. categorizes its legal proceedings and claims on the basis of their probability and estimability. The company distinguishes between unresolved legal matters that are part of its ordinary business operations and those where the outcome is inherently uncertain. Specifically, th",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_008",
+    "domain": "financial",
+    "question": "Catherine R. Clay's role transition in innovation derivatives at Cboe Global Markets Inc. (CBOE) showcases its competitiveness.",
+    "ground_truth": "Catherine R. Clay\u2019s career progression reflects a strategic emphasis on innovation and leveraging advanced technology to maintain a competitive edge in the derivatives market. By transitioning from the role of Global Head of Data and Access Solutions\u2014where she honed skills in leveraging data-driven ",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_009",
+    "domain": "financial",
+    "question": "Impact of proactive regulatory engagement on competitive positioning and future growth, CBOE.",
+    "ground_truth": "Cboe Global Markets Inc.'s proactive engagement with policymakers and its comprehensive regulatory program serve several strategic functions that bolster its competitive positioning and support future growth:\n\n1. **Industry Leadership and Policy Influence**: By actively engaging policymakers, the co",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_010",
+    "domain": "financial",
+    "question": "Impact of fee recognition rev volatility on Cboe Global Markets.",
+    "ground_truth": "The provided data indicates that Cboe recognizes transaction and clearing fees on a monthly basis and adjusts for tiered volume discounts monthly as well. This monthly revenue recognition process has a dual impact on the volatility and predictability of revenue across the Company\u2019s segments:\n\n1. Pre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_011",
+    "domain": "financial",
+    "question": "$1B liquidity utilization at Cboe Global Markets.",
+    "ground_truth": "Cboe Global Markets Inc. has a strong liquidity position going forward. The company has nearly $1.0 billion available\u2014this is a combination of cash and available borrowing under its revolving credit facilities. Specifically, it has $400 million currently available from its revolving credit facility,",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_012",
+    "domain": "financial",
+    "question": "Cboe (CBOE) allocates capital primarily towards dividends/share buybacks vs growth investments.",
+    "ground_truth": "Cboe Global Markets appears to be balancing its capital allocation in a dual-focused manner. On one hand, the company has committed significant cash to shareholder returns (evidenced by cash dividends and share repurchases totaling approximately $307.4 million in 2023 alone) which indicates a strong",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_013",
+    "domain": "financial",
+    "question": "Liquidity Cboe Gbl: cash ops, rev credit, financing.",
+    "ground_truth": "Cboe Global Markets Inc. relies on several primary liquidity sources to meet its cash needs. First, the company generates cash from operations, which has been instrumental in increasing its cash and cash equivalents. This operational cash flow is used to fund routine expenses such as capital expendi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_014",
+    "domain": "financial",
+    "question": "CBOE core profit metrics for options exchgs.",
+    "ground_truth": "The provided information gives a general overview of Cboe Global Markets Inc. and its market leadership, particularly in the options and stock exchanges, but does not contain specific numerical financial data. However, the question \u2013 which asks about key financial metrics that would indicate the com",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_015",
+    "domain": "financial",
+    "question": "Profitability trends for FY22-24 at LULU and their cost mgmt strategies.",
+    "ground_truth": "The data shows that net revenue increased significantly from $6,256,617 in FY2022 to $8,110,518 in FY2023, and further to $9,619,278 in FY2024. Similarly, gross profit rose from $3,608,565 in FY2022 to $4,492,340 in FY2023, and then to $5,609,405 in FY2024. However, net income experienced a dip in F",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_016",
+    "domain": "financial",
+    "question": "Lululemon's impact on ppl strategy & competitive positioning, LULU, drives its growth potential.",
+    "ground_truth": "The reference highlights that Lululemon believes its success hinges on its employees, achieved by creating an environment that promotes personal and professional development through a distinctive, diverse, and equitable culture. For investors, this indicates that by attracting and retaining passiona",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_017",
+    "domain": "financial",
+    "question": "Impact of LULU's integrated retail strategy on engagement & sales growth by region.",
+    "ground_truth": "The provided information explains that Lululemon\u2019s integrated digital and physical retail strategies are vital to creating a seamless, omni-channel customer experience that both drives customer engagement and supports sales growth across its key market segments (Americas, China Mainland, and Rest of",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_018",
+    "domain": "financial",
+    "question": "Impact of higher repurchases on financing cash flow for LULU.",
+    "ground_truth": "The data clearly indicates that the company's expenditure on share repurchases increased by approximately $114.7 million from 2022 to 2023 (i.e., $558.7 million in 2023 minus $444.0 million in 2022). This increased expenditure directly contributed to a larger cash outflow in the financing activities",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_019",
+    "domain": "financial",
+    "question": "Impact of LULU's cybersecurity risk mgt. liability.",
+    "ground_truth": "Lululemon\u2019s proactive cybersecurity risk management approach, as described in the provided reference, plays a crucial role in mitigating financial liabilities that could negatively impact profitability. Here are the key ways in which this approach helps:\n\n1. **Prevention of Costly Breaches**: Regula",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_020",
+    "domain": "financial",
+    "question": "Impact of community mktg on LULU's CAC & loyalty metrics.",
+    "ground_truth": "The provided reference does not include detailed financial statement data that directly links investments in community-based marketing and in-store experience to customer acquisition costs or long-term loyalty metrics. Lululemon\u2019s financial statements typically report overall marketing expenses and ",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_021",
+    "domain": "financial",
+    "question": "Lululemon\u2019s competitive pos. in the mkt may face legal risk mgmt challenges, LULU.",
+    "ground_truth": "The provided reference indicates that Lululemon engages in routine legal matters, including the initiation and defense of legal proceedings, as part of its overall risk management strategy. Specifically, the company\u2019s proactive stance\u2014protecting its intellectual property rights, addressing employmen",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_022",
+    "domain": "financial",
+    "question": "Exec separation risk in governance for LULU board.",
+    "ground_truth": "The provided data, although limited, does allow us to assess the structure of Lululemon Athletica Inc.'s board in terms of executive versus non\u2010executive roles. Specifically, the document clearly identifies two executive officers \u2013 the CEO, Calvin McDonald, and the CFO, Meghan Frank \u2013 as separate fr",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_023",
+    "domain": "financial",
+    "question": "Quarterly CIO/CISO oversight on cybersecurity risk boosts investor confidence in LULU.",
+    "ground_truth": "The provided data makes it clear that quarterly meetings and regular reports from the CIO and CISO to both the audit committee and the board are designed to ensure proactive and timely oversight of cybersecurity risks. Specifically, these frequent engagements enable the board to:\n\n1. Monitor Risk As",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_024",
+    "domain": "financial",
+    "question": "Impact on margins from shipping fee cost acct for LULU.",
+    "ground_truth": "The reference indicates that shipping fees billed to customers are recorded as revenue, while the corresponding shipping costs are recognized as part of selling, general and administrative expenses in the same period. This accounting treatment impacts evaluations of profitability and operating margi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_025",
+    "domain": "financial",
+    "question": "LULU's cash equivalents impact liquidity.",
+    "ground_truth": "The significant increase in cash and cash equivalents\u2014from approximately $1.15 billion to $2.24 billion\u2014directly enhanced lululemon\u2019s liquidity position and financial stability. This increase is an important component of the company\u2019s current assets, which rose from roughly $3.16 billion to $4.06 bi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_026",
+    "domain": "financial",
+    "question": "Lululemon, ticker LULU, excels in premium branding & tech innovation, impacting its market position vs. competitors.",
+    "ground_truth": "The provided reference explains that Lululemon emphasizes a premium brand image and technical product innovation as core facets of its competitive strategy. Although the reference does not offer specific financial figures or detailed comparisons, we can qualitatively assess the impact as follows:\n\n1",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_027",
+    "domain": "financial",
+    "question": "Purchase timing, volume, liquidity impact for LULU ESPP.",
+    "ground_truth": "The available data allows us to analyze the likely impact of the ESPP transactions on liquidity and price stability. Since all ESPP shares are purchased from the open market, the timing and scale of these purchases are important factors. In Lululemon\u2019s case, annual ESPP purchases have amounted to ab",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_028",
+    "domain": "financial",
+    "question": "Trend in accrued CapEx for investment pace at LULU.",
+    "ground_truth": "The data shows that accrued capital expenditures increased from $19,365K on January 29, 2023, to $31,936K on January 28, 2024. This represents about a 65% increase [(31,936 - 19,365) / 19,365 \u2248 0.65]. The rise in accrued capital expenditures, combined with Reference 1 noting increased investment in ",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_029",
+    "domain": "financial",
+    "question": "Analysis of revenue growth trends for CrowdStrike (CRWD) FY22-FY23 and FY23-FY24.",
+    "ground_truth": "To calculate the revenue growth rates, we use the formula: [(Current Year Revenue - Previous Year Revenue) / Previous Year Revenue] x 100.\n\n1. FY2022 to FY2023:\n   - FY2022 Total Revenue = $1,451,594\n   - FY2023 Total Revenue = $2,241,236\n   - Growth = [(2,241,236 - 1,451,594) / 1,451,594] x 100 \u2248 (",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_030",
+    "domain": "financial",
+    "question": "Assessment of work stoppage risk due to labor disputes at CrowdStrike, CRWD.",
+    "ground_truth": "The reference indicates that as of January 31, 2024, CrowdStrike Holdings, Inc. employs 7,925 full-time employees and also uses temporary employees and consultants when needed. Notably, none of the employees in the United States are subject to union representation or collective bargaining agreements",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_031",
+    "domain": "financial",
+    "question": "Impact of CrowdStrike's subs vs. pro services rev growth on overall rev trends, CRWD.",
+    "ground_truth": "Analysis of the provided financial data shows that both subscription and professional services revenues grew over the periods, but subscription revenue had both a larger base and strong growth that contributed more significantly to the increase in total revenue. For example, subscription revenue inc",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_032",
+    "domain": "financial",
+    "question": "CRWD's unvested share repurchase affects risk & cash flow.",
+    "ground_truth": "The company\u2019s approach is clearly outlined in the 2011 Stock Plan details. When an employee early exercises a stock option, they pay the exercise price and the related cash is recorded as a liability (the \u201cdeposit\u201d) for early exercised but unvested shares. This means that although the employee has a",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_033",
+    "domain": "financial",
+    "question": "CRWD's cybersecurity update process impacts threat mitigation & financials.",
+    "ground_truth": "CrowdStrike\u2019s process for regularly updating its cybersecurity policies, standards, and procedures is a proactive measure that plays a critical role in mitigating emerging cyber threats. By routinely reviewing and revising these policies\u2014often on an annual basis or even more frequently when needed\u2014t",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_034",
+    "domain": "financial",
+    "question": "Falcon platform scalability, innovation, and differentiation in deployment CRWD.",
+    "ground_truth": "CrowdStrike's Falcon platform sets itself apart by leveraging a cloud-native architecture and a single agent design. This approach offers several key advantages:\n\n1. Scalability: Unlike legacy antivirus providers that rely on on-premises solutions, the cloud-native design of Falcon allows customers ",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_035",
+    "domain": "financial",
+    "question": "Liquidity and long-term profitability may be affected by CRWD's legal proceedings.",
+    "ground_truth": "The provided data enables a qualitative assessment of the potential impacts. In the short term, litigation-related cash outlays could include legal fees, settlement costs, and possibly expenses associated with counterclaims. However, the recent resolution of the trademark dispute with FICO, along wi",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_036",
+    "domain": "financial",
+    "question": "CFO of CrowdStrike focuses on capital allocation & financial mgmt insights.",
+    "ground_truth": "The provided data only lists the current executive officers, including Burt W. Podbere as CFO, along with their ages, names, and positions. There is no accompanying financial data, strategic commentary, or detailed insight into capital allocation or financial management practices. Therefore, while o",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_037",
+    "domain": "financial",
+    "question": "ESG governance risk mgmt. for CRWD.",
+    "ground_truth": "The provided reference details only discuss the potential challenges and risks related to ESG initiatives, including the difficulties of achieving the stated goals, potential criticisms, and implications for reputation and financial performance. However, it does not include specific details on how C",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_038",
+    "domain": "financial",
+    "question": "CRWD's revenue recognition impacts T&M, fixed fee, and cash flow predictability.",
+    "ground_truth": "The revenue recognition policy for professional services can impact the predictability and stability of future cash flows in a few ways. Since professional services revenue is recognized as the services are performed, the timing of revenue recognition under time and material agreements largely depen",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_039",
+    "domain": "financial",
+    "question": "CRWD's profitability profile is affected by contractual cash outflows and associated risks.",
+    "ground_truth": "The data provided on non-cancellable purchase commitments lets us assess, at least qualitatively, how the contractual cash outflows may affect CrowdStrike Holdings\u2019 profitability and risk profile in upcoming fiscal periods. Key points include:\n\n1. Profitability Impact:\n   \u2022 The firm is obligated to ",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_040",
+    "domain": "financial",
+    "question": "CRWD's liquidity breakdown for short-term coverage as of Jan 31, 2024.",
+    "ground_truth": "CrowdStrike Holdings\u2019 liquidity position as of January 31, 2024, is composed of several key components:\n\n1. **Cash and Cash Equivalents**: $3.4 billion is held in cash and highly liquid investments such as money market funds and U.S. Treasury bills. This constitutes the core of immediate liquidity a",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_041",
+    "domain": "financial",
+    "question": "Impact of customer support, incident response, & proactive services on recurring revenue & cash flow for CrowdStrike (CRWD).",
+    "ground_truth": "The information provided allows for a qualitative assessment of this question. The company\u2019s strengths in customer support, incident response, and proactive services are highlighted as a competitive differentiator, and these capabilities contribute in several key ways: \n\n1. Recurring Revenue Streams",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_042",
+    "domain": "financial",
+    "question": "CRWD's acquisition of Bionic & Reposify includes goodwill breakdown driven by strategic factors.",
+    "ground_truth": "The total goodwill recorded for the two acquisitions is $221.7 million, which is the sum of $207.5 million for Bionic and $14.2 million for Reposify. The justifications for this goodwill value center on three key elements: the assembled workforce, planned growth in new markets, and the expected syne",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_043",
+    "domain": "financial",
+    "question": "Total non-op income for Jan 28, 2024, & its impact on financial resilience for NVDA.",
+    "ground_truth": "Calculation: The interest income for the period is $866 million and the other income (net) is $846 million, yielding a total non-operating income of $866 + $846 = $1,712 million. This additional non-operating income contributes to NVIDIA's financial resilience by diversifying its income streams beyo",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_044",
+    "domain": "financial",
+    "question": "R&D vs ops employee ratio at NVDA.",
+    "ground_truth": "At the end of fiscal year 2024, NVIDIA had approximately 29,600 employees, of which 22,200 were engaged in R&D and 7,400 in sales, marketing, operations, and administration. This results in a ratio of roughly 3 R&D employees for every 1 employee in the other functions, indicating a significant focus",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_045",
+    "domain": "financial",
+    "question": " NVDA's compute & networking rev impact on overall perf.",
+    "ground_truth": "NVIDIA\u2019s overall financial performance has been significantly boosted by the robust growth in its Compute & Networking segment. For instance, this segment\u2019s revenue increased from $15,068 million in the previous year to $47,405 million, representing a 215% year-on-year growth. This surge was primari",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_046",
+    "domain": "financial",
+    "question": "Impact on NVDA share repurchases from the excise tax in IRA.",
+    "ground_truth": "The provided reference offers sufficient insight to analyze the potential impact of the 1% excise tax. Although the tax was not material to fiscal 2024, its presence means that future share repurchase programs might incur an additional cost when repurchases exceed the number of shares issued for emp",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_047",
+    "domain": "financial",
+    "question": "NVIDIA's cap allocation efficiency, liability mitigation, and impact of external cybersecurity consultations.",
+    "ground_truth": "NVIDIA\u2019s adoption of external consultations and adherence to well\u2010recognized cybersecurity frameworks (such as ISO 27001) can yield several interrelated financial benefits. First, by leveraging external cybersecurity experts and comprehensive vendor risk assessments, the company is better positioned",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_048",
+    "domain": "financial",
+    "question": "NVIDIA (NVDA) long-term financial & competitive safeguards amid GPU/CPU/AI competition.",
+    "ground_truth": "The provided reference discusses the competitive landscape, detailing potential risks from emerging competitors and alliances in sectors like GPU, CPU, and AI computing. However, it does not contain specific information about the measures NVIDIA has implemented to safeguard its long-term financial h",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_049",
+    "domain": "financial",
+    "question": "Uncertainty in NVIDIA litigation may impact growth valuation significantly, NVDA.",
+    "ground_truth": "The provided information details an ongoing and evolving legal situation with multiple securities and derivative litigations, along with a timeline showing delays, appeals, and stays in the rulings. Although NVIDIA has not accrued any liabilities because the company does not currently view these pot",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fin_050",
+    "domain": "financial",
+    "question": "NVIDIA Corp's exec ops/legal impact on risk mgmt & corp governance.",
+    "ground_truth": "The provided information, while not containing detailed operational metrics, offers sufficient context about the roles of NVIDIA's executive team to answer the question on how their responsibilities could impact risk management and corporate governance. For instance, the Executive Vice President of ",
+    "difficulty": "medium"
+  }
 ]
