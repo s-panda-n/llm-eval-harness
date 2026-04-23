@@ -1,0 +1,5 @@
+model,domain,avg_latency,avg_factual_accuracy,avg_hallucination,avg_cot,avg_calibration,prompt_count
+ollama/mistral,financial,19.125,0.482,0.355,0.669,0.783,50
+ollama/mistral,general,7.815,0.647,0.149,0.72,0.769,50
+ollama/mistral,legal,5.286,0.83,0.354,0.584,0.711,50
+ollama/mistral,medical,15.114,0.797,0.297,0.707,0.708,50

@@ -1,5 +1,6 @@
 proj2/
 .env
-results/
+results/*_scores_raw.csv
+results/*.json
 __pycache__/
 *.pyc

@@ -9,8 +9,8 @@ st.caption("Benchmarking GPT-4o-mini, Claude Haiku, and Mistral across domains")
 
 # ── Load Data ──────────────────────────────────────────────────────────────────
 
-summary_files = glob.glob("results/*_scores_summary.csv")
-raw_files = glob.glob("results/*_scores_raw.csv")
+summary_files = glob.glob("results/*_scores_summary.csv") + glob.glob("assets/*_scores_summary.csv")
+raw_files = glob.glob("results/*_scores_raw.csv") + glob.glob("assets/*_scores_raw.csv")
 
 if not summary_files:
     st.warning("No results found. Run the eval pipeline first.")

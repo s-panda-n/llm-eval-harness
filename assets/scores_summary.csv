@@ -1,0 +1,13 @@
+model,domain,avg_latency,avg_factual_accuracy,avg_hallucination,avg_cot,avg_calibration,prompt_count
+claude-haiku-4-5,financial,4.775,0.442,0.298,0.761,0.729,50
+claude-haiku-4-5,general,2.928,0.679,0.049,0.879,0.819,50
+claude-haiku-4-5,legal,1.564,0.686,0.0,0.86,0.865,50
+claude-haiku-4-5,medical,4.718,0.817,0.164,0.819,0.733,50
+gpt-4o-mini,financial,7.017,0.483,0.218,0.745,0.787,50
+gpt-4o-mini,general,2.804,0.687,0.063,0.84,0.832,50
+gpt-4o-mini,legal,2.383,0.664,0.002,0.741,0.805,50
+gpt-4o-mini,medical,5.684,0.799,0.166,0.775,0.749,50
+ollama/mistral,financial,19.125,0.482,0.352,0.669,0.783,50
+ollama/mistral,general,7.815,0.647,0.146,0.72,0.769,50
+ollama/mistral,legal,5.286,0.83,0.355,0.579,0.711,50
+ollama/mistral,medical,15.114,0.797,0.292,0.706,0.708,50
