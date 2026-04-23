@@ -3,6 +3,9 @@
 ## Overview
 This project benchmarks how well frontier LLMs maintain reasoning accuracy when prompts shift from general to domain-specific contexts. The core hypothesis is that models degrade — in accuracy, calibration, and reasoning coherence — when faced with specialized terminology and nuance in medical, legal, and financial domains.
 
+## Live Dashboard
+[View Results →](https://llm-eval-harness-4mdbzgt4ageqhmqta2s7uj.streamlit.app)
+
 ## Models Evaluated
 | Model | Provider | Role |
 |---|---|---|
